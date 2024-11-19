@@ -19,7 +19,7 @@ def lambda_handler(event, context):
         TableName = 'string',
         KeySchema = [
             {
-                'AttributeName': 'Product',
+                'AttributeName': 'Price',
                 'KeyType': 'HASH'|'RANGE'#Select one
             },
         ],
@@ -30,3 +30,5 @@ def lambda_handler(event, context):
     )
 
 #Add items to the table
+
+
